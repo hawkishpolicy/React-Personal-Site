@@ -32,6 +32,7 @@ const Portfolio = () => {
           <div id="portfolio-title">
             <h3>Autonomous Collective -</h3>
             <p>An homage to the early days of Amazon, this full featured e-commerce site offers secure login, guest users, persistent cart, search, filtering, and a robust admin page.</p>
+            <a style={{textDecoration: "underline", color:"#4f4f4f", fontWeight:"bolder", fontSize:"Larger"}}href="https://www.youtube.com/watch?v=qnU2Cc3ji1I" target="_blank">Video Overview</a>
           </div>
         </div>
         <div id="portfolio-column">
