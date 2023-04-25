@@ -40,8 +40,15 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 2vw;
+  margin-top: 4vh;
   margin-bottom: 2vw;
+}
+
+#portfolio-column {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 #portfolio-row {
@@ -52,117 +59,23 @@ body {
 #portfolio-link {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 45vw;
+  width: 40vw;
 }
 
 #portfolio-title {
   text-align: left;
   padding: 2vw;
+  font-size: large;
 }
 
 #portfolio-pic {
-  height: 30vw;
-  width: 35vw;
+  height: 25vh;
+  width: 30vw;
   padding: 1vw;
   transition-property: all;
   transition-duration: 500ms;
   transition-delay: 500ms;
   margin: 1vw;
-}
-
-#hero2 {
-  display: flex;
-  flex-direction: column;
-  background-color: #97a6a0;
-  margin-top: 25px;
-  box-shadow: 5px 5px 15px black;
-  border-radius: 15px;
-  padding: 10px;
-  width: 500px;
-}
-#heroprojectpic {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  box-shadow: 3 3 5 black;
-  font-size: xx-small;
-  width: min-content;
-}
-
-#elcap {
-  padding: 30px;
-  width: 300px;
-}
-
-#quote {
-  display: flex;
-  flex-direction: column;
-  font-style: italic;
-  font-size: x-small;
-  padding: 15px;
-}
-
-#family {
-  display: flex;
-  flex-direction: row;
-  background-color: #97a6a0;
-  margin-top: 25px;
-  width: fit-content;
-  box-shadow: 5px 5px 15px black;
-  border-radius: 15px;
-  padding: 10px;
-  height: fit-content;
-}
-
-#climbing {
-  display: flex;
-  flex-direction: row;
-  background-color: #97a6a0;
-  margin-top: 25px;
-  width: fit-content;
-  box-shadow: 5px 5px 15px black;
-  border-radius: 15px;
-  padding: 10px;
-}
-
-#cycling {
-  display: flex;
-  flex-direction: row;
-  background-color: #97a6a0;
-  margin-top: 25px;
-  width: fit-content;
-  box-shadow: 5px 5px 15px black;
-  border-radius: 15px;
-  padding: 10px;
-}
-
-#projectpic {
-  display: flex;
-  float: left;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  box-shadow: 3 3 5 black;
-}
-
-#elcap {
-  padding: 50px;
-  width: 300px;
-  float: xxxx;
-}
-#selfie {
-  padding: 50px;
-  width: 300px;
-  float: xxxx;
-  height: 250px;
-}
-
-#bike {
-  padding: 50px;
-  width: 300px;
-  float: xxxx;
 }
 
 @media screen and (max-width: 414px) {
@@ -171,11 +84,30 @@ body {
     flex-direction: column;
     width: 80vw;
   }
+
+  #info-blurb {
+    width: 80vw;
+  }
   #info-pics {
     display: flex;
     flex-direction: row;
     width: 80vw;
     justify-content: space-around;
     align-items: center;
+  }
+
+  #portfolio-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #portfolio-row {
+    width: 80vw;
+    justify-content: space-around;
+  }
+
+  #portfolio-title {
+    font-size: small;
+    padding: 4vw;
   }
 }

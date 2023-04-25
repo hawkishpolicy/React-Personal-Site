@@ -16,16 +16,31 @@ const Info = () => {
           <br></br>
           I'm Tom.
           <br></br>
-          <br></br>
-          I'm a newly minted web developer and am interested in designing and
-          building useful web based tech that offer a rewarding user experience.
-          <br></br>
-          <br></br>
-          I'm very much interested in the intersection of tech and the outdoor
-          world, especially in the creation of guidebooks, maps, trackers, and
-          databases for outdoor/endurance sports.
+          <br></br>I work in web development and am interested in building
+          useful web based tech that provides a rewarding user experience so
+          that people are free to spend more time doing what they love.
           <br></br>
           <br></br>
+          Prior to web development, I attended the University of North Florida
+          where I received a classic liberal arts education and spent my first
+          career in construction management.
+          <br></br>
+          <br></br>
+          In my spare time you can find me enjoying all manner of outdoor
+          activities. From climbing in TN to hiking in Yosemite to paddle
+          boarding in FL, I try to enjoy as much as possible of the massive
+          variety in outdoor recreation offered by the US.
+          <br></br>
+          <br></br>
+          To that end, I'm very much interested in the intersection of tech and
+          the outdoor world, especially in the creation of guidebooks, maps,
+          trackers, and databases for outdoor/endurance sports.
+          <br></br>
+          <br></br>
+          <span>Reach out -
+          <a href="mailto:thomasjohnson@gmail.com" target="_blank"> thomasjohnso@gmail.com
+          </a></span>
+          <span>Or -<a href="https://www.linkedin.com/in/thomas-j-johnson/" target="_blank"> LinkedIn</a></span>
         </p>
         <div id="info-pics">
           <Image

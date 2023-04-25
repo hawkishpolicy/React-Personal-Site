@@ -13,6 +13,7 @@ import {
   MDBDropdownMenu,
   MDBCollapse,
 } from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [showBasic, setShowBasic] = useState(false);
@@ -39,7 +40,6 @@ const NavBar = () => {
             <MDBNavbarItem>
               <MDBNavbarLink href="/portfolio">Portfolio</MDBNavbarLink>
             </MDBNavbarItem>
-
             <MDBNavbarItem>
               <MDBDropdown>
                 <MDBDropdownToggle tag="a" className="nav-link" role="button">
@@ -47,7 +47,7 @@ const NavBar = () => {
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBNavbarLink
-                    href="mailto:thomasjohnson@gmail.com.com"
+                    href="mailto:thomasjohnson@gmail.com"
                     target="_blank"
                   >
                     Email
