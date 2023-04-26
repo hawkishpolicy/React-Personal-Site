@@ -14,7 +14,11 @@ const Portfolio = () => {
       <div id="portfolio-row">
         <div id="portfolio-column">
           <div id="portfolio-link">
-            <Nav.Link as={Link} to="https://autonomous-collective.netlify.app/" target="_blank">
+            <Nav.Link
+              as={Link}
+              to="https://autonomous-collective.netlify.app/"
+              target="_blank"
+            >
               <MDBRipple
                 rippleTag="div"
                 className="bg-image hover-overlay hover-zoom hover-shadow rounded"
@@ -31,13 +35,32 @@ const Portfolio = () => {
           </div>
           <div id="portfolio-title">
             <h3>Autonomous Collective -</h3>
-            <p>An homage to the early days of Amazon, this full featured e-commerce site offers secure login, guest users, persistent cart, search, filtering, and a robust admin page.</p>
-            <a style={{textDecoration: "underline", color:"#4f4f4f", fontWeight:"bolder", fontSize:"Larger"}}href="https://www.youtube.com/watch?v=qnU2Cc3ji1I" target="_blank">Video Overview</a>
+            <p>
+              An homage to the early days of Amazon, this full featured
+              e-commerce site offers secure login, guest users, persistent cart,
+              search, filtering, and a robust admin page.
+            </p>
+            <a
+              style={{
+                textDecoration: "underline",
+                color: "#4f4f4f",
+                fontWeight: "bolder",
+                fontSize: "Larger",
+              }}
+              href="https://www.youtube.com/watch?v=qnU2Cc3ji1I"
+              target="_blank"
+            >
+              Video Overview
+            </a>
           </div>
         </div>
         <div id="portfolio-column">
           <div id="portfolio-link">
-            <Nav.Link as={Link} to="https://flourishing-mochi-563fc9.netlify.app/" target="_blank">
+            <Nav.Link
+              as={Link}
+              to="https://flourishing-mochi-563fc9.netlify.app/"
+              target="_blank"
+            >
               <MDBRipple
                 rippleTag="div"
                 className="bg-image hover-overlay hover-zoom hover-shadow rounded"
@@ -58,7 +81,8 @@ const Portfolio = () => {
           <div id="portfolio-title">
             <h3>Fitness Tracker -</h3>
             <p>
-              A simple but powerful exercise app offering secure login, user generated amendable routines/activities, and search.
+              A simple but powerful exercise app offering secure login, user
+              generated amendable routines/activities, and search.
             </p>
           </div>
         </div>
@@ -66,7 +90,11 @@ const Portfolio = () => {
       <div id="portfolio-row">
         <div id="portfolio-column">
           <div id="portfolio-link">
-            <Nav.Link as={Link} to="https://superlative-medovik-f79872.netlify.app/" target="_blank">
+            <Nav.Link
+              as={Link}
+              to="https://superlative-medovik-f79872.netlify.app/"
+              target="_blank"
+            >
               <MDBRipple
                 rippleTag="div"
                 className="bg-image hover-overlay hover-zoom hover-shadow rounded"
@@ -88,12 +116,20 @@ const Portfolio = () => {
           </div>
           <div id="portfolio-title">
             <h3>Stranger's Thing -</h3>
-            <p>An online marketplace in the style of Craigslist. This site offers login/registration, creation of editable posts, search, and messaging.</p>
+            <p>
+              An online marketplace in the style of Craigslist. This site offers
+              login/registration, creation of editable posts, search, and
+              messaging.
+            </p>
           </div>
         </div>
         <div id="portfolio-column">
           <div id="portfolio-link">
-            <Nav.Link as={Link} to="https://sweet-squirrel-f41337.netlify.app/" target="_blank">
+            <Nav.Link
+              as={Link}
+              to="https://sweet-squirrel-f41337.netlify.app/"
+              target="_blank"
+            >
               <MDBRipple
                 rippleTag="div"
                 className="bg-image hover-overlay hover-zoom hover-shadow  rounded"
@@ -110,7 +146,11 @@ const Portfolio = () => {
           </div>
           <div id="portfolio-title">
             <h3>Arcade -</h3>
-            <p>My take on the classic Tic-Tac-Toe. This arcade offers Player vs CPU or Player vs Player game modes with dynamic score and easy reset.</p>
+            <p>
+              My take on the classic Tic-Tac-Toe. This arcade offers Player vs
+              CPU or Player vs Player game modes with dynamic score and easy
+              reset.
+            </p>
           </div>
         </div>
       </div>
