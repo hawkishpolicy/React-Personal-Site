@@ -1,16 +1,19 @@
 import React from "react";
-import selfie from "./../images/selfie.jpg";
+import testBG from "./../images/testBG.jpg";
 import armsWide from "./../images/armsWide.jpg";
 import swanSlabs from "./../images/swanSlabs.jpg";
 import bikeShot from "./../images/bikeShot.jpg";
 import Image from "react-bootstrap/Image";
-import { MDBRipple } from "mdb-react-ui-kit";
+import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 
 const Info = () => {
   return (
-    <div>
-      <div id="info-page">
-        <p id="info-blurb">
+    <div 
+    >
+      <div id="info-page" >
+        <p id="info-blurb" className="info-bg img-fluid
+         rounded
+         ">
           Hey there,
           <br></br>
           <br></br>
@@ -37,29 +40,83 @@ const Info = () => {
           trackers, and databases for outdoor/endurance sports.
           <br></br>
           <br></br>
-          <span>Reach out -
-          <a href="mailto:thomasjohnson@gmail.com" target="_blank"> thomasjohnso@gmail.com
-          </a></span>
-          <span>Or -<a href="https://www.linkedin.com/in/thomas-j-johnson/" target="_blank"> LinkedIn</a></span>
+          Let's talk!
+          <br></br>
+          <br></br>
+          <div id="contact-options">
+            <span id="contact-icon">
+              Email -{" "}
+              <a
+                class="material-symbols-outlined material-icons md-36"
+                href="mailto:thomasjohnson@gmail.com"
+                target="_blank"
+              >
+                contact_mail
+              </a>
+            </span>
+            <span id="contact-icon">
+              LinkedIn -{" "}
+              <a
+                class="material-symbols-outlined material-icons md-36"
+                href="https://www.linkedin.com/in/thomas-j-johnson/"
+                target="_blank"
+              >
+                group
+              </a>
+            </span>
+            <span id="contact-icon">
+              Resumé -{" "}
+              <a
+                class="material-symbols-outlined material-icons md-36"
+                href="https://docs.google.com/document/d/e/2PACX-1vSGh0X54y9ZIXEmDyXmOYmRoJWGbdaGGCi9OX4kcU9QEf9vK3zM2GFLeWKzAQG0YA/pub"
+                target="_blank"
+              >
+                description
+              </a>
+            </span>
+          </div>
         </p>
-        <div id="info-pics">
+        <div id="info-pics" >
           <Image
             src={armsWide}
-            className=" img-thumbnail hover-shadow"
-            style={{ width: "20vw", alignSelf: "flex-start" }}
+            className=" rounded hover-shadow img-fluid"
+            style={{ alignSelf: "flex-start" }}
           />
 
           <Image
             src={swanSlabs}
-            className="img-fluid rounded img-thumbnail hover-shadow"
-            style={{ width: "25vw", alignSelf: "flex-end" }}
+            className="img-fluid rounded  hover-shadow"
+            style={{ alignSelf: "flex-end" }}
           />
           <Image
             src={bikeShot}
-            className="img-fluid rounded img-thumbnail hover-shadow"
-            style={{ width: "20vw", alignSelf: "flex-start" }}
+            className="img-fluid rounded  hover-shadow"
+            style={{ alignSelf: "flex-start" }}
           />
         </div>
+        <MDBCarousel id="carousel">
+          <MDBCarouselItem
+            className="d-block w-100 rounded"
+            itemId={1}
+            src={armsWide}
+            alt="..."
+            style={{ height: "25vh" }}
+          />
+          <MDBCarouselItem
+            className="d-block w-100 rounded"
+            itemId={2}
+            src={swanSlabs}
+            alt="..."
+            style={{ height: "25vh" }}
+          />
+          <MDBCarouselItem
+            className=" d-block w-100 rounded"
+            itemId={3}
+            src={bikeShot}
+            alt="..."
+            style={{ height: "25vh" }}
+          />
+        </MDBCarousel>
       </div>
     </div>
   );

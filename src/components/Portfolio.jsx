@@ -25,7 +25,7 @@ const Portfolio = () => {
                 rippleColor="dark"
                 rippleDuration={"3000"}
               >
-                <Image src={autoColl} className="img-fluid img-thumbnail" />
+                <Image src={autoColl} className=" img-thumbnail" />
                 <div
                   className="mask"
                   style={{ backgroundColor: "rgba(251, 251, 251, 0.35)" }}
@@ -69,7 +69,7 @@ const Portfolio = () => {
               >
                 <Image
                   src={fitnessTracker}
-                  className="img-fluid img-thumbnail"
+                  className="img-thumbnail"
                 />
                 <div
                   className="mask"
@@ -101,11 +101,10 @@ const Portfolio = () => {
                 rippleColor="dark"
                 rippleDuration={"3000"}
               >
-                <Image
-                  as={Link}
-                  to={"/strangers-things"}
+                <img
+                  id="portfolio-pic"
                   src={strangersThings}
-                  className="img-fluid img-thumbnail"
+                  className="img-thumbnail"
                 />
                 <div
                   className="mask"
@@ -136,7 +135,7 @@ const Portfolio = () => {
                 rippleColor="dark"
                 rippleDuration={"3000"}
               >
-                <Image src={arcade} className="img-fluid img-thumbnail" />
+                <Image src={arcade} className="img-thumbnail col-12" />
                 <div
                   className="mask"
                   style={{ backgroundColor: "rgba(251, 251, 251, 0.35)" }}

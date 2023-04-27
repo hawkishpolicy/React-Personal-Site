@@ -1,17 +1,54 @@
 body {
   margin: 0;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: url("https://images.pexels.com/photos/7957992/pexels-photo-7957992.jpeg?auto=compress&cs=tinysrgb&w=1600")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: rgb(255, 255, 255);
+}
+
+#contact-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
 }
 
 #info-page {
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 90vw;
   margin-right: auto;
   margin-left: auto;
   margin-top: 4vh;
   justify-content: space-evenly;
   gap: 5vw;
+  color: rgb(255, 255, 255);
+}
+
+#carousel {
+  display: none;
 }
 
 #info-blurb {
@@ -23,6 +60,12 @@ body {
   width: 60vw;
   margin-top: 1vw;
   margin-bottom: 1vw;
+}
+
+#contact-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
 }
 
 #info-pics {
@@ -42,24 +85,23 @@ body {
   flex-wrap: wrap;
   margin-top: 4vh;
   margin-bottom: 2vw;
+  row-gap: 2vh;
 }
 
 #portfolio-column {
   width: 40vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 #portfolio-row {
   display: flex;
   flex-direction: row;
-  gap: 2vw;
+  gap: 5vw;
 }
 #portfolio-link {
   display: flex;
   flex-direction: column;
-  width: 40vw;
 }
 
 #portfolio-title {
@@ -68,32 +110,35 @@ body {
   font-size: large;
 }
 
-#portfolio-pic {
-  height: 25vh;
-  width: 30vw;
-  padding: 1vw;
-  transition-property: all;
-  transition-duration: 500ms;
-  transition-delay: 500ms;
-  margin: 1vw;
-}
-
 @media screen and (max-width: 414px) {
   #info-page {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 90vw;
+  }
+
+  #carousel {
+    display: initial;
+    margin-bottom: 2vh;
   }
 
   #info-blurb {
     width: 80vw;
+    margin: auto;
+  }
+
+  #contact-options {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   #info-pics {
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
+    display: none;
+    flex-direction: column;
+    width: 90vw;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
   }
 
   #portfolio-page {
@@ -104,6 +149,12 @@ body {
   #portfolio-row {
     width: 80vw;
     justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #portfolio-column {
+    width: 80vw;
   }
 
   #portfolio-title {

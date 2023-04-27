@@ -19,9 +19,9 @@ const NavBar = () => {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" light bgColor="light">
+    <MDBNavbar expand="lg" light bgColor="light" collapseOnSelect>
       <MDBContainer fluid>
-        <MDBNavbarBrand href="/">Thomas Johnson</MDBNavbarBrand>
+        <MDBNavbarBrand href="/" style={{color:"#4f4f4f"}}>Thomas Johnson</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"
@@ -55,9 +55,14 @@ const NavBar = () => {
                   <MDBNavbarLink
                     href="https://www.linkedin.com/in/thomas-j-johnson/"
                     target="_blank"
-                    link
                   >
                     LinkedIn
+                  </MDBNavbarLink>
+                  <MDBNavbarLink
+                    href="https://docs.google.com/document/d/e/2PACX-1vSGh0X54y9ZIXEmDyXmOYmRoJWGbdaGGCi9OX4kcU9QEf9vK3zM2GFLeWKzAQG0YA/pub"
+                    target="_blank"
+                  >
+                    Resumé
                   </MDBNavbarLink>
                 </MDBDropdownMenu>
               </MDBDropdown>
