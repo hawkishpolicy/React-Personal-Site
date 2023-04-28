@@ -19,7 +19,7 @@ const NavBar = () => {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" light bgColor="light" collapseOnSelect>
+    <MDBNavbar expand="lg" light bgColor="light">
       <MDBContainer fluid>
         <MDBNavbarBrand href="/" style={{color:"#4f4f4f"}}>Thomas Johnson</MDBNavbarBrand>
 
@@ -46,19 +46,19 @@ const NavBar = () => {
                   Contact
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBNavbarLink
+                  <MDBNavbarLink style={{color:"#4f4f4f"}}
                     href="mailto:thomasjohnson@gmail.com"
                     target="_blank"
                   >
                     Email
                   </MDBNavbarLink>
-                  <MDBNavbarLink
+                  <MDBNavbarLink style={{color:"#4f4f4f"}}
                     href="https://www.linkedin.com/in/thomas-j-johnson/"
                     target="_blank"
                   >
                     LinkedIn
                   </MDBNavbarLink>
-                  <MDBNavbarLink
+                  <MDBNavbarLink style={{color:"#4f4f4f"}}
                     href="https://docs.google.com/document/d/e/2PACX-1vSGh0X54y9ZIXEmDyXmOYmRoJWGbdaGGCi9OX4kcU9QEf9vK3zM2GFLeWKzAQG0YA/pub"
                     target="_blank"
                   >

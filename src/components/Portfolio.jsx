@@ -40,18 +40,32 @@ const Portfolio = () => {
               e-commerce site offers secure login, guest users, persistent cart,
               search, filtering, and a robust admin page.
             </p>
-            <a
-              style={{
-                textDecoration: "underline",
-                color: "#4f4f4f",
-                fontWeight: "bolder",
-                fontSize: "Larger",
-              }}
-              href="https://www.youtube.com/watch?v=qnU2Cc3ji1I"
-              target="_blank"
-            >
-              Video Overview
-            </a>
+            <div id="extra-link">
+              <a
+                style={{
+                  textDecoration: "underline",
+                  color: "white",
+                  fontWeight: "bolder",
+                  fontSize: "Larger",
+                }}
+                href="https://www.youtube.com/watch?v=qnU2Cc3ji1I"
+                target="_blank"
+              >
+                Video Overview
+              </a>
+              <a
+                style={{
+                  textDecoration: "underline",
+                  color: "white",
+                  fontWeight: "bolder",
+                  fontSize: "Larger",
+                }}
+                href="https://github.com/orgs/Autonomous-Collective/repositories"
+                target="_blank"
+              >
+                GitHub Repo
+              </a>
+            </div>
           </div>
         </div>
         <div id="portfolio-column">
@@ -67,10 +81,7 @@ const Portfolio = () => {
                 rippleColor="dark"
                 rippleDuration={"3000"}
               >
-                <Image
-                  src={fitnessTracker}
-                  className="img-thumbnail"
-                />
+                <Image src={fitnessTracker} className="img-thumbnail" />
                 <div
                   className="mask"
                   style={{ backgroundColor: "rgba(251, 251, 251, 0.35)" }}
@@ -84,6 +95,20 @@ const Portfolio = () => {
               A simple but powerful exercise app offering secure login, user
               generated amendable routines/activities, and search.
             </p>
+            <div id="extra-link">
+              <a
+                style={{
+                  textDecoration: "underline",
+                  color: "white",
+                  fontWeight: "bolder",
+                  fontSize: "Larger",
+                }}
+                href="https://github.com/hawkishpolicy/Fitness-Tracker-Client"
+                target="_blank"
+              >
+                GitHub Repo
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -114,12 +139,26 @@ const Portfolio = () => {
             </Nav.Link>
           </div>
           <div id="portfolio-title">
-            <h3>Stranger's Thing -</h3>
+            <h3>Stranger's Things -</h3>
             <p>
               An online marketplace in the style of Craigslist. This site offers
               login/registration, creation of editable posts, search, and
               messaging.
             </p>
+            <div id="extra-link">
+              <a
+                style={{
+                  textDecoration: "underline",
+                  color: "white",
+                  fontWeight: "bolder",
+                  fontSize: "Larger",
+                }}
+                href="https://github.com/hawkishpolicy/Strangers-Things"
+                target="_blank"
+              >
+                GitHub Repo
+              </a>
+            </div>
           </div>
         </div>
         <div id="portfolio-column">
@@ -150,6 +189,20 @@ const Portfolio = () => {
               CPU or Player vs Player game modes with dynamic score and easy
               reset.
             </p>
+            <div id="extra-link">
+              <a
+                style={{
+                  textDecoration: "underline",
+                  color: "white",
+                  fontWeight: "bolder",
+                  fontSize: "Larger",
+                }}
+                href="https://github.com/hawkishpolicy/Arcade"
+                target="_blank"
+              >
+                GitHub Repo
+              </a>
+            </div>
           </div>
         </div>
       </div>
