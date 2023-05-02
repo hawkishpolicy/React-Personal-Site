@@ -13,7 +13,7 @@ import {
   MDBDropdownMenu,
   MDBCollapse,
 } from "mdb-react-ui-kit";
-import { Link } from "react-router-dom";
+import resumePDF from "./../pdf/resumePDF.pdf";
 
 const NavBar = () => {
   const [showBasic, setShowBasic] = useState(false);
@@ -21,7 +21,9 @@ const NavBar = () => {
   return (
     <MDBNavbar expand="lg" light bgColor="light">
       <MDBContainer fluid>
-        <MDBNavbarBrand href="/" style={{color:"#4f4f4f"}}>Thomas Johnson</MDBNavbarBrand>
+        <MDBNavbarBrand href="/" style={{ color: "#4f4f4f" }}>
+          Thomas Johnson
+        </MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"
@@ -41,28 +43,41 @@ const NavBar = () => {
               <MDBNavbarLink href="/portfolio">Portfolio</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
+              <MDBNavbarLink href="/resume">Resume</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
               <MDBDropdown>
                 <MDBDropdownToggle tag="a" className="nav-link" role="button">
                   Contact
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBNavbarLink style={{color:"#4f4f4f"}}
-                    href="mailto:thomasjohnson@gmail.com"
+                  <MDBNavbarLink
+                    style={{ color: "#4f4f4f" }}
+                    href="mailto:thomasjohnso@gmail.com"
                     target="_blank"
                   >
                     Email
                   </MDBNavbarLink>
-                  <MDBNavbarLink style={{color:"#4f4f4f"}}
+                  <MDBNavbarLink
+                    style={{ color: "#4f4f4f" }}
                     href="https://www.linkedin.com/in/thomas-j-johnson/"
                     target="_blank"
                   >
                     LinkedIn
                   </MDBNavbarLink>
-                  <MDBNavbarLink style={{color:"#4f4f4f"}}
-                    href="https://docs.google.com/document/d/e/2PACX-1vSGh0X54y9ZIXEmDyXmOYmRoJWGbdaGGCi9OX4kcU9QEf9vK3zM2GFLeWKzAQG0YA/pub"
+                  <MDBNavbarLink
+                    style={{ color: "#4f4f4f" }}
+                    href="https://github.com/hawkishpolicy"
                     target="_blank"
                   >
-                    Resumé
+                    GitHub
+                  </MDBNavbarLink>
+                  <MDBNavbarLink
+                    style={{ color: "#4f4f4f" }}
+                    href={resumePDF}
+                    target="_blank"
+                  >
+                    Download Resume
                   </MDBNavbarLink>
                 </MDBDropdownMenu>
               </MDBDropdown>

@@ -43,12 +43,13 @@ body {
 #info-page {
   display: flex;
   flex-direction: row;
-  width: 90vw;
+  width: 80vw;
   margin-right: auto;
   margin-left: auto;
   margin-top: 2vh;
+  margin-bottom: 2vh;
   justify-content: space-evenly;
-  gap: 5vw;
+  gap: 10vw;
   color: rgb(255, 255, 255);
 }
 
@@ -62,9 +63,12 @@ body {
   text-align: left;
   font-size: x-large;
   font-weight: 500;
-  width: 60vw;
+  width: 50vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  padding: 1vw;
 }
 
 #contact-options {
@@ -75,12 +79,12 @@ body {
 }
 
 #info-pics {
-  width: 40vw;
+  width: 25vw;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  gap: 2vw;
+  gap: 2vh;
   margin-top: 1vh;
   margin-bottom: 1vh;
 }
@@ -102,6 +106,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  padding: 1vw;
 }
 
 #portfolio-row {
@@ -122,7 +129,33 @@ body {
 #portfolio-title {
   text-align: left;
   padding: 2vw;
+  padding-bottom: 0vw;
   font-size: large;
+}
+
+#resume-page {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  align-items: center;
+  gap: 2vh;
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 43vw;
+  height: 100vh;
+  margin: auto;
+}
+#resume-button {
+  width: 8vw;
 }
 
 @media screen and (max-width: 414px) {
@@ -181,5 +214,16 @@ body {
   #portfolio-title {
     font-size: small;
     padding: 4vw;
+    padding-bottom: 1vw;
+  }
+  #resume-page {
+    width: 95vw;
+  }
+
+  #resume {
+    width: 95vw;
+  }
+  #resume-button {
+    width: 40vw;
   }
 }

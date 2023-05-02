@@ -1,10 +1,11 @@
 import React from "react";
-import testBG from "./../images/testBG.jpg";
 import armsWide from "./../images/armsWide.jpg";
 import swanSlabs from "./../images/swanSlabs.jpg";
-import bikeShot from "./../images/bikeShot.jpg";
+import hikingWithBeast from "./../images/hiking-with-beast.jpg";
+import resumePDF from "./../pdf/resumePDF.pdf"
 import Image from "react-bootstrap/Image";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import Resume from "./Resume";
 
 const Info = () => {
   return (
@@ -47,7 +48,7 @@ const Info = () => {
               Email -{" "}
               <a
                 class="material-symbols-outlined material-icons md-30"
-                href="mailto:thomasjohnson@gmail.com"
+                href="mailto:thomasjohnso@gmail.com"
                 target="_blank"
               >
                 contact_mail
@@ -67,10 +68,20 @@ const Info = () => {
               Resumé -{" "}
               <a
                 class="material-symbols-outlined material-icons md-30"
-                href="https://docs.google.com/document/d/e/2PACX-1vSGh0X54y9ZIXEmDyXmOYmRoJWGbdaGGCi9OX4kcU9QEf9vK3zM2GFLeWKzAQG0YA/pub"
+                href="/resume"
                 target="_blank"
               >
                 description
+              </a>
+            </span>
+            <span id="contact-icon">
+              GitHub -{" "}
+              <a
+                class="material-symbols-outlined material-icons md-30"
+                href="https://github.com/hawkishpolicy"
+                target="_blank"
+              >
+                terminal
               </a>
             </span>
           </div>
@@ -88,7 +99,7 @@ const Info = () => {
             style={{ alignSelf: "flex-end" }}
           />
           <Image
-            src={bikeShot}
+            src={hikingWithBeast}
             className="img-fluid rounded  hover-shadow"
             style={{ alignSelf: "flex-start" }}
           />
@@ -111,7 +122,7 @@ const Info = () => {
           <MDBCarouselItem
             className=" d-block w-100 rounded shadow-4-strong"
             itemId={3}
-            src={bikeShot}
+            src={hikingWithBeast}
             alt="..."
             style={{ height: "25vh" }}
           />
