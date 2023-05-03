@@ -177,6 +177,7 @@ body {
   #info-blurb {
     width: 90vw;
     margin: auto;
+    margin-top: 2vh;
     padding: 5vw;
   }
 
