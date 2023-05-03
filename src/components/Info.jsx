@@ -110,21 +110,21 @@ const Info = () => {
             itemId={1}
             src={armsWide}
             alt="..."
-            style={{ height: "25vh" }}
+            style={{ height: "30vh" }}
           />
           <MDBCarouselItem
             className="d-block w-100 rounded shadow-4-strong"
             itemId={2}
             src={swanSlabs}
             alt="..."
-            style={{ height: "25vh" }}
+            style={{ height: "30vh" }}
           />
           <MDBCarouselItem
             className=" d-block w-100 rounded shadow-4-strong"
             itemId={3}
             src={hikingWithBeast}
             alt="..."
-            style={{ height: "25vh" }}
+            style={{ height: "30vh" }}
           />
         </MDBCarousel>
       </div>

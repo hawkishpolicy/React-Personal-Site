@@ -51,28 +51,28 @@ const NavBar = () => {
                   Contact
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBNavbarLink
+                  <MDBNavbarLink id="NavLinkCollapse"
                     style={{ color: "#4f4f4f" }}
                     href="mailto:thomasjohnso@gmail.com"
                     target="_blank"
                   >
                     Email
                   </MDBNavbarLink>
-                  <MDBNavbarLink
+                  <MDBNavbarLink id="NavLinkCollapse"
                     style={{ color: "#4f4f4f" }}
                     href="https://www.linkedin.com/in/thomas-j-johnson/"
                     target="_blank"
                   >
                     LinkedIn
                   </MDBNavbarLink>
-                  <MDBNavbarLink
+                  <MDBNavbarLink id="NavLinkCollapse"
                     style={{ color: "#4f4f4f" }}
                     href="https://github.com/hawkishpolicy"
                     target="_blank"
                   >
                     GitHub
                   </MDBNavbarLink>
-                  <MDBNavbarLink
+                  <MDBNavbarLink id="NavLinkCollapse"
                     style={{ color: "#4f4f4f" }}
                     href={resumePDF}
                     target="_blank"
