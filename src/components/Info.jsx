@@ -2,7 +2,7 @@ import React from "react";
 import armsWide from "./../images/armsWide.jpg";
 import swanSlabs from "./../images/swanSlabs.jpg";
 import hikingWithBeast from "./../images/hiking-with-beast.jpg";
-import resumePDF from "./../pdf/resumePDF.pdf"
+// import resumePDF from "./../pdf/resumePDF.pdf"
 import Image from "react-bootstrap/Image";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import Resume from "./Resume";

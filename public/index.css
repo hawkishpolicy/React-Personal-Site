@@ -150,7 +150,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 43vw;
+  width: 60%;
   height: 100vh;
   margin: auto;
 }

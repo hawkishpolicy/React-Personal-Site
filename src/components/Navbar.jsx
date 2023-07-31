@@ -13,7 +13,7 @@ import {
   MDBDropdownMenu,
   MDBCollapse,
 } from "mdb-react-ui-kit";
-import resumePDF from "./../pdf/resumePDF.pdf";
+import resumeWithLinksPDF from "./../pdf/Thomas Johnson Resume w_ listed links.docx.pdf";
 
 const NavBar = () => {
   const [showBasic, setShowBasic] = useState(false);
@@ -74,7 +74,7 @@ const NavBar = () => {
                   </MDBNavbarLink>
                   <MDBNavbarLink id="NavLinkCollapse"
                     style={{ color: "#4f4f4f" }}
-                    href={resumePDF}
+                    href={resumeWithLinksPDF}
                     target="_blank"
                   >
                     Download Resume
