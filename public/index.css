@@ -112,10 +112,6 @@ body {
   padding: 1rem;
 }
 
-/* #portfolio-link {
-
-} */
-
 .img-thumbnail {
   min-height: 210px;
   object-fit: cover;
@@ -208,14 +204,7 @@ body {
     flex-direction: column;
   }
 
-  #portfolio-row {
-    width: 80vw;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #portfolio-column {
+  #portfolio-card {
     width: 80vw;
   }
 
